@@ -8,12 +8,12 @@ Keep in mind using the pre-built packages when available.
 
 1. Ensure your system satisfies build and runtime dependencies for:
 
-* fuse >= 2.8.4
+* fuse >= 2.8.4  e.g: `sudo apt install libfuse-dev/focal`
 * automake
 * gcc-c++
 * make
 * libcurl
-* libxml2
+* libxml2 e.g: `sudo apt install -y libxml2`
 * openssl
 * mime.types (the package providing depends on the OS)
 	* s3fs tries to detect `/etc/mime.types` as default regardless of the OS
